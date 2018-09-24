@@ -4,19 +4,18 @@ server:
 spring:
   application:
     name: rain-config-server
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
+  profiles:
+    active: native
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: guest
+#    password: guest
   cloud:
     config:
       server:
-        git:
-          uri: http://git.oschina.net/didispace/SpringCloud-Learning/
-          searchPaths: Chapter1-1-8/config-repo
-          username: username
-          password: password
+        native:
+          search-locations: classpath:/properties/
       retry:
         initial-interval: 3000
         multiplier: 1.5
@@ -32,6 +31,16 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1025/eureka/
     registry-fetch-interval-seconds: 10
+    
+# 关闭安全管理
+management:
+  security:
+    enabled: false
+endpoints:
+  health:
+    sensitive: false
+
+
     
 
 
