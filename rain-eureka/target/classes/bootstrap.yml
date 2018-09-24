@@ -5,12 +5,12 @@ spring:
   application:
     name: rain-eureka-server
 
-security:
-  basic:
-    enabled: true # 启用身份认证
-  user:
-    name: pig # 定义用户名
-    password: gip6666 # 定义密码
+#security:
+#  basic:
+#    enabled: true # 启用身份认证
+#  user:
+#    name: pig # 定义用户名
+#    password: gip6666 # 定义密码
 
 eureka:
   client:
