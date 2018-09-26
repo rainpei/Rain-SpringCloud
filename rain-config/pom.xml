@@ -9,6 +9,8 @@
 	<name>rain-config</name>
 	<description>配置中心</description>
 	<artifactId>rain-config</artifactId>
+		<groupId>com.github</groupId>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
 		<!--配置中心服务 -->
@@ -37,5 +39,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>

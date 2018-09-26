@@ -6,4 +6,14 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>rain-visual</artifactId>
+  <groupId>com.github</groupId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+      <modules>
+        <module>rain-monitor</module>
+        <module>rain-zipkin-elk</module>
+        <module>rain-zipkin-db</module>
+        <!--<module>pig-cache-cloud</module>-->
+    </modules>
 </project>

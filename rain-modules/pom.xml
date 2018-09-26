@@ -6,4 +6,21 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>rain-modules</artifactId>
+  <groupId>com.github</groupId>
+  <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>pig-modules</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>rain-daemon-service</module>
+        <module>rain-mc-service</module>
+        <module>rain-sso-client-demo</module>
+        <module>rain-upms-service</module>
+    </modules>
 </project>
