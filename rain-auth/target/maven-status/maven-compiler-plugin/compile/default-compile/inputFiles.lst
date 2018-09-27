@@ -1,0 +1,17 @@
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\component\mobile\MobileAuthenticationFilter.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\RainAuthServerApplication.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\controller\AuthenticationController.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\service\UserDetailServiceImpl.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\component\mobile\MobileLoginSuccessHandler.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\util\MobileAuthenticationToken.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\feign\UserService.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\component\mobile\MobileAuthenticationToken.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\feign\fallback\UserServiceFallbackImpl.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\component\mobile\MobileSecurityConfigurer.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\config\PigAuthorizationConfig.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\util\UserDetailsImpl.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\config\PigJwtAccessTokenConverter.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\config\PigSecurityConfigurerAdapter.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\component\mobile\MobileAuthenticationProvider.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\config\PigRedisTokenStore.java
+E:\workspace\space-20\rain\rain-auth\src\main\java\com\github\rain\auth\config\SocialPropertiesConfig.java

@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: pig-auth
+  profiles:
+    active: dev
+  cloud:
+    config:
+      fail-fast: true
+#      discovery:
+#        service-id: pig-config-server
+#        enabled: true
+      url: http://localhost:8888/
+      profile: dev
+      label: dev
+      
+      
+---
+spring:
+  profiles: dev
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 20
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1025/eureka
+    registry-fetch-interval-seconds: 10
+
+---
+spring:
+  profiles: prd
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1025/eureka
