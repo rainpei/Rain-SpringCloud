@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: rain-eureka-server
+    name: pig-eureka-server
 
 #security:
 #  basic:

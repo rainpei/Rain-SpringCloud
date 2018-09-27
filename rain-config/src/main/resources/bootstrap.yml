@@ -1,9 +1,9 @@
 server:
-  port: 4001
+  port: 8888
 
 spring:
   application:
-    name: rain-config-server
+    name: pig-config-server
   profiles:
     active: dev
   cloud:

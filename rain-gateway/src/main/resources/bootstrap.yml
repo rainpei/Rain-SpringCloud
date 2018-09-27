@@ -6,10 +6,12 @@ spring:
   cloud:
     config:
       fail-fast: true
-      discovery:
-        service-id: pig-config-server
-        enabled: true
+#      discovery:
+#        service-id: pig-config-server
+#        enabled: true
+      url: http://localhost:8888/
       profile: dev
+      label: dev
 
 
 ---
